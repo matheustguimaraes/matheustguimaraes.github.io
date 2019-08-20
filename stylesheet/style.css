@@ -1,10 +1,10 @@
 body {
     font-family: 'Roboto Mono', monospace;
+    background-color: #F8F8F8;
 }
 
 a {
-    color: gray;
-    text-decoration: underline;
+    color: green;
 }
 
 h1 {
@@ -12,9 +12,16 @@ h1 {
     font-weight: 500;
 }
 
-h3 {
+h3, h4 {
     font-size: large;
+}
+
+h3 {
     font-weight: 400;
+}
+
+h4 {
+    font-weight: 300;
 }
 
 .img-fluid {
