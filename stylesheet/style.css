@@ -4,15 +4,19 @@ body {
 }
 
 a {
-    color: green;
+    color: red;
 }
 
-h1 {
+h1,
+h2 {
     margin-top: 20px;
     font-weight: 500;
+    font-weight: bold;
+
 }
 
-h3, h4 {
+h3,
+h4 {
     font-size: large;
 }
 
@@ -34,4 +38,9 @@ h4 {
 
 #links {
     padding: 20px;
+    font-size: 30px;
+}
+
+#time {
+    color: gray;
 }
