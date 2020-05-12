@@ -1,7 +1,7 @@
 var dictionary = {
     'introduction': {
         'en': "Hey, there. I'm a Backend Developer with experience building systems using Computer Vision and Machine Learning techniques. Currently mastering Node.js to make cool and useful web apps",
-        'pt-br': "Eai. Sou desenvolvedor back-end com experiência na construção de sistemas usando as técnicas de visão computacional e aprendizado de máquina. Atualmente aprendendo sobre Node.js para web apps",
+        'pt-br': "Eai. Sou desenvolvedor back-end com experiência na criação de softwares utilizando técnicas de visão computacional e aprendizagem de máquina. Atualmente aprendendo sobre Node.js para criação de web apps",
     },
     'contact': {
         'en': "Contact",
