@@ -19,7 +19,7 @@ h2 {
     margin-top: 30px;
     font-weight: 500;
     font-weight: bold;
-
+    
 }
 
 h3,
@@ -51,4 +51,12 @@ h4 {
 
 #time {
     color: gray;
+}
+
+input.button-add {
+    background-image: url(/assets/images/flag-for-brazil_icon.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
 }
