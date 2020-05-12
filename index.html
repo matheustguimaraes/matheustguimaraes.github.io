@@ -32,14 +32,14 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="https://matheusg.com">Matheus T. Guimarães</a>
+        <a class="navbar-brand" href="#">Matheus<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
@@ -50,13 +50,11 @@
                 </li>
             </ul>
         </div>
-        <div class="form-inline my-2 my-lg-0">
-            <button class="btn btn-primary" onclick="change_lang()">
-                <div data-translate="english"></div>
-            </button>
-        </div>
-
+        <button class="btn btn-primary" onclick="change_lang()">
+            <div data-translate="english"></div>
+        </button>
     </nav>
+
 
     <section class="container">
         <div id="name-id" class="row align-items-center text-center">

@@ -12,8 +12,8 @@ var dictionary = {
         'pt-br': "Curriculum vitae",
     },
     'english': {
-        'en': "English",
-        'pt-br': "Português",
+        'en': "En",
+        'pt-br': "Pt",
     },};
 
 var langs = ['en', 'pt-br'];
