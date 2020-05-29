@@ -1,11 +1,11 @@
 body {
-    font-family: 'Raleway';
-    background-color: #111;
+    font-family: 'Roboto';
+    background-color: black;
     color: white;
 }
 
 a {
-    color: red;
+    color: white;
 }
 
 h1 {
@@ -14,16 +14,13 @@ h1 {
     text-transform: uppercase;
 }
 
-h1,
-h2 {
+h1, h2 {
     margin-top: 30px;
     font-weight: 500;
     font-weight: bold;
-    
 }
 
-h3,
-h4 {
+h3, h4 {
     font-size: large;
 }
 
@@ -46,7 +43,22 @@ h4 {
 }
 
 #links {
+    font-weight: 700;
+}
+
+#links-fab {
     font-size: 35px;
+}
+
+#links:hover {
+    color: red;
+    font-weight: 700;
+}
+
+
+#links-nav {
+    font-size: 20px;
+    padding-inline: 10px;
 }
 
 #time {
@@ -54,9 +66,39 @@ h4 {
 }
 
 input.button-add {
-    background-image: url(/assets/images/flag-for-brazil_icon.png); /* 16px x 16px */
-    background-color: transparent; /* make the button transparent */
-    background-position: 0px 0px;  /* equivalent to 'top left' */
-    border: none;           /* assuming we don't want any borders */
-    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    background-image: url(/assets/images/flag-for-brazil_icon.png);
+    background-color: transparent;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+a.button-link {
+    display: inline-block;
+    padding: 0.46em 1.6em;
+    border: 0.1em solid #000000;
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    border-color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    text-align: center;
+    transition: all 0.15s;
+}
+
+a.button-link:hover {
+    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+    color: red;
+    /* border-color: blue; */
+}
+
+@media all and (max-width:30em) {
+    a.button-link {
+        display: block;
+        margin: 0.4em auto;
+    }
 }
